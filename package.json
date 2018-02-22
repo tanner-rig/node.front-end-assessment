@@ -1,0 +1,26 @@
+{
+  "name": "clip-front-end-assessment",
+  "version": "1.0.0",
+  "description": "NodeJS service using heroku to return simple info",
+  "engines": {
+    "node": "8.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.15.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tanner-rig/node.front-end-assessment.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
