@@ -1,6 +1,6 @@
 // Dependencies
 const express = require('express');
-const cors = requre('cors');
+const cors = require('cors');
 const PORT = process.env.PORT || 3000;
 const bodyParser = require('body-parser');
 const router = express.Router();
