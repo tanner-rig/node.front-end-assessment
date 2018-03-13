@@ -1,5 +1,6 @@
 // Dependencies
 const express = require('express');
+const cors = requre('cors');
 const PORT = process.env.PORT || 3000;
 const bodyParser = require('body-parser');
 const router = express.Router();
@@ -18,6 +19,7 @@ const sports = [
 
 // Express
 const app = express();
+app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
